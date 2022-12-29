@@ -33,8 +33,11 @@ models
 - train_classifier.py                                  # machine learning pipeline
 - classifier.pkl                                       # saved classification model
 
+
 README.md
+
 requirements.txt
+
 environment.yml
 
 
