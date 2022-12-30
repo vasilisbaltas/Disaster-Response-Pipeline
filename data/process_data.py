@@ -44,6 +44,9 @@ def clean_data(df, categories):
     df = pd.concat([df, categories], axis=1)
     df = df.drop_duplicates()
 
+    # we can observe that the 'related' category also contains double's(2) that does not make sense - we will turn this 2s     # to 1s
+    df.loc[df.related == 2, 'related'] = 1
+
     return df
 
 

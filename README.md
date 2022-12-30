@@ -41,7 +41,7 @@ requirements.txt
 environment.yml
 
 
-## Instructions:
+## Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -50,3 +50,7 @@ environment.yml
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
     - To run the web app `python run.py`
 
+
+##  Acknowledgements
+Acknowledgements should go to Udacity for providing the starter code of the web app as well as to 
+Figure Eight for providing real world disaster emergency messages(dataset).
